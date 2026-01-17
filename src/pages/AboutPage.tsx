@@ -87,28 +87,19 @@ const AboutPage = () => {
 
   const team = [
     {
-      name: 'Alex Chen',
-      role: 'CEO & Co-Founder',
-      bio: 'Former Google engineer, passionate about sustainable tech.',
-      image: 'https://api.dicebear.com/7.x/avataaars/svg?seed=alex',
+      name: 'Jack',
+      bio: 'Passionate about sustainable tech and smart home innovation.',
+      image: 'https://api.dicebear.com/7.x/avataaars/svg?seed=jack',
     },
     {
-      name: 'Sarah Kim',
-      role: 'CTO & Co-Founder',
-      bio: 'ML researcher with 10+ years in predictive analytics.',
-      image: 'https://api.dicebear.com/7.x/avataaars/svg?seed=sarahk',
+      name: 'Sariya',
+      bio: 'ML enthusiast with a focus on predictive analytics.',
+      image: 'https://api.dicebear.com/7.x/avataaars/svg?seed=sariya',
     },
     {
-      name: 'Marcus Johnson',
-      role: 'Head of Product',
-      bio: 'Smart home enthusiast and UX specialist.',
-      image: 'https://api.dicebear.com/7.x/avataaars/svg?seed=marcus',
-    },
-    {
-      name: 'Emily Zhang',
-      role: 'Lead Data Scientist',
-      bio: 'PhD in computational sustainability from MIT.',
-      image: 'https://api.dicebear.com/7.x/avataaars/svg?seed=emily',
+      name: 'Dingding',
+      bio: 'Full-stack developer and IoT specialist.',
+      image: 'https://api.dicebear.com/7.x/avataaars/svg?seed=dingding',
     },
   ]
 
@@ -326,12 +317,9 @@ const AboutPage = () => {
                     className="w-24 h-24 mx-auto rounded-full bg-gray-100 group-hover:scale-105 transition-transform"
                   />
                 </div>
-                <h3 className="text-lg font-bold text-gray-900 dark:text-white">
+                <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-3">
                   {member.name}
                 </h3>
-                <p className="text-primary-500 font-medium text-sm mb-3">
-                  {member.role}
-                </p>
                 <p className="text-gray-600 dark:text-gray-400 text-sm mb-4">
                   {member.bio}
                 </p>
